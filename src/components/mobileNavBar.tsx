@@ -8,7 +8,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { MenuSquareIcon } from "lucide-react";
+import { Menu, MenuSquareIcon } from "lucide-react";
 import NavBarItem from "./navBarItem";
 
 function MobileNavBar() {
@@ -19,7 +19,7 @@ function MobileNavBar() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle>Edit profile</SheetTitle>
+          <SheetTitle>Menu</SheetTitle>
           <SheetDescription>
            <NavBarItem />
           </SheetDescription>
